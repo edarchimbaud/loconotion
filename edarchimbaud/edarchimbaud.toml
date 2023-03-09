@@ -5,6 +5,12 @@
 # name of the folder that the site will be generated in
 name = "edarchimbaud"
 
+# Sitemap configuration
+# Remove if you don't want to generate sitemap.xml
+protocol = "https"
+domain = "www.edarchimbaud.com"
+remove_html_extension = false
+
 # the notion.so page to being parsing from. This page will become the index.html
 # of the generated site, and loconotation will parse all sub-pages present on the page
 page = "https://edarchimbaud.notion.site/edarchimbaud/Edouard-d-Archimbaud-d8397a781321456c9c101feea7a42b60"
@@ -77,6 +83,6 @@ page = "https://edarchimbaud.notion.site/edarchimbaud/Edouard-d-Archimbaud-d8397
   [pages.f9dc5c5704554c8e9433d07e8c33e225]
     slug = "spot"
 
-    [[pages.d2fa06f244e64f66880bb0491f58223d.meta]] 
+    [[pages.f9dc5c5704554c8e9433d07e8c33e225.meta]] 
     name = "description"
     content = "An insider description of the Spot hedge fund."
